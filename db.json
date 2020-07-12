@@ -1,14 +1,287 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+{ 
+    "_id" : ObjectId("5d8c92679d371f2c3c3fb6d6"), 
+    "en" : {
+        "name" : "Default Template"
+    }, 
+    "ar" : {
+        "name" : "قالب شاشة العرض الافتراضي"
+    }, 
+    "lang" : "ar", 
+    "isDeleted" : false, 
+    "isStatic" : false, 
+    "isDefault" : true, 
+    "bgColor" : "#fff", 
+    "logo" : {
+        "w" : NumberInt(100), 
+        "h" : NumberInt(200), 
+        "x" : NumberInt(0), 
+        "y" : NumberInt(0)
+    }, 
+    "footer" : {
+        "display" : true, 
+        "bgColor" : "#791e1e", 
+        "font" : {
+            "color" : "#fff", 
+            "size" : NumberInt(17), 
+            "bold" : true, 
+            "italic" : true, 
+            "underline" : false
+        }, 
+        "props" : {
+            "cols" : NumberInt(24), 
+            "rows" : NumberInt(1), 
+            "x" : NumberInt(0), 
+            "y" : NumberInt(17)
+        }, 
+        "message" : "مرحبا بكم"
+    }, 
+    "media" : {
+        "display" : true, 
+        "bgColor" : "#000", 
+        "fullScreen" : false, 
+        "timeFrame" : {
+            "from" : "08:00", 
+            "to" : "08:30"
+        }, 
+        "props" : {
+            "cols" : NumberInt(12), 
+            "rows" : NumberInt(10), 
+            "x" : NumberInt(12), 
+            "y" : NumberInt(0)
+        }
+    }, 
+    "recent" : {
+        "display" : true, 
+        "bgColor" : "#fafafa", 
+        "numOfTickets" : NumberInt(5), 
+        "font" : {
+            "color" : "#000", 
+            "size" : NumberInt(15), 
+            "bold" : true, 
+            "italic" : false, 
+            "underline" : false
+        }, 
+        "content" : [
+            "ticket", 
+            "arrow", 
+            "counter", 
+            "service"
+        ], 
+        "props" : {
+            "cols" : NumberInt(12), 
+            "rows" : NumberInt(7), 
+            "x" : NumberInt(0), 
+            "y" : NumberInt(8)
+        }, 
+        "type" : "ticket", 
+        "ticket_border" : {
+            "style" : "dotted", 
+            "color" : "#353535", 
+            "width" : NumberInt(1)
+        }, 
+        "components" : {
+            "service" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }, 
+            "counter" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }, 
+            "arrow" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }, 
+            "ticket" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }
+        }, 
+        "number_of_pages" : NumberInt(1), 
+        "timing_per_page" : NumberInt(15), 
+        "alternative_rows" : [
+            "#fff", 
+            "#efefef"
+        ], 
+        "last_ticket" : {
+            "background" : "#0f0", 
+            "animation" : true
+        }, 
+        "header" : {
+            "font" : {
+                "color" : "#e6e0e0", 
+                "size" : NumberInt(15), 
+                "bold" : true, 
+                "italic" : false, 
+                "underline" : false, 
+                "family" : "Arial"
+            }, 
+            "display" : true, 
+            "bgColor" : "#606060"
+        }, 
+        "viewCalled" : true
+    }, 
+    "calling" : {
+        "display" : true, 
+        "bgColor" : "#585e63", 
+        "font" : {
+            "color" : "#e6e0e0", 
+            "size" : NumberInt(40), 
+            "bold" : true, 
+            "italic" : false, 
+            "underline" : false, 
+            "family" : "Arial"
+        }, 
+        "content" : [
+            "ticket", 
+            "arrow", 
+            "counter", 
+            "service"
+        ], 
+        "props" : {
+            "cols" : NumberInt(12), 
+            "rows" : NumberInt(5), 
+            "x" : NumberInt(12), 
+            "y" : NumberInt(10)
+        }, 
+        "ticket_border" : {
+            "style" : "none", 
+            "color" : "#0f0", 
+            "width" : NumberInt(1)
+        }, 
+        "components" : {
+            "service" : {
+                "fz" : NumberInt(18), 
+                "grow" : NumberInt(1)
+            }, 
+            "counter" : {
+                "fz" : NumberInt(27), 
+                "grow" : NumberInt(1)
+            }, 
+            "arrow" : {
+                "fz" : NumberInt(27), 
+                "grow" : NumberInt(1)
+            }, 
+            "ticket" : {
+                "fz" : NumberInt(27), 
+                "grow" : NumberInt(1)
+            }
+        }, 
+        "header" : {
+            "font" : {
+                "color" : "#e6e0e0", 
+                "size" : NumberInt(15), 
+                "bold" : true, 
+                "italic" : false, 
+                "underline" : false, 
+                "family" : "Arial"
+            }, 
+            "display" : true, 
+            "bgColor" : "#393939"
+        }
+    }, 
+    "image" : {
+        "display" : false, 
+        "bgColor" : "#c5b4b4", 
+        "props" : {
+            "cols" : NumberInt(2), 
+            "rows" : NumberInt(2), 
+            "x" : NumberInt(18), 
+            "y" : NumberInt(0)
+        }, 
+        "source" : "../../assets/img/GET.png"
+    }, 
+    "rss" : {
+        "display" : true, 
+        "bgColor" : "#585e63", 
+        "font" : {
+            "color" : "#e6e0e0", 
+            "size" : NumberInt(35), 
+            "bold" : true, 
+            "italic" : false, 
+            "underline" : false, 
+            "family" : "Arial"
+        }, 
+        "props" : {
+            "cols" : NumberInt(24), 
+            "rows" : NumberInt(2), 
+            "x" : NumberInt(0), 
+            "y" : NumberInt(15)
+        }, 
+        "type" : "url", 
+        "url" : "", 
+        "text" : "", 
+        "animation_direction" : "right", 
+        "animation_speed" : "6"
+    }, 
+    "recent_service" : {
+        "display" : true, 
+        "bgColor" : "#fafafa", 
+        "numOfTickets" : NumberInt(4), 
+        "font" : {
+            "color" : "#000", 
+            "size" : NumberInt(15), 
+            "bold" : true, 
+            "italic" : false, 
+            "underline" : false
+        }, 
+        "content" : [
+            "ticket", 
+            "arrow", 
+            "counter", 
+            "service"
+        ], 
+        "props" : {
+            "cols" : NumberInt(12), 
+            "rows" : NumberInt(8), 
+            "x" : NumberInt(0), 
+            "y" : NumberInt(0)
+        }, 
+        "type" : "NotAll", 
+        "ticket_border" : {
+            "style" : "solid", 
+            "color" : "#777", 
+            "width" : NumberInt(1)
+        }, 
+        "components" : {
+            "service" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }, 
+            "counter" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }, 
+            "arrow" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }, 
+            "ticket" : {
+                "fz" : NumberInt(13), 
+                "grow" : NumberInt(1)
+            }
+        }, 
+        "number_of_pages" : NumberInt(1), 
+        "timing_per_page" : NumberInt(30), 
+        "alternative_rows" : [
+            "#fff", 
+            "#efefef"
+        ], 
+        "last_ticket" : {
+            "background" : "#00ff00", 
+            "animation" : true
+        }, 
+        "header" : {
+            "font" : {
+                "color" : "#e6e0e0", 
+                "size" : NumberInt(15), 
+                "bold" : true, 
+                "italic" : false, 
+                "underline" : false, 
+                "family" : "Arial"
+            }, 
+            "display" : true, 
+            "bgColor" : "#4f4f4f"
+        }
+    }
 }
